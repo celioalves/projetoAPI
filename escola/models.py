@@ -9,7 +9,7 @@ class Aluno(models.Model):
     def __str__(self):
         return self.nome
 
-class CCurso(models.Model):
+class Curso(models.Model):
     
     NIVEL = (
         ('B', 'Básico'),
